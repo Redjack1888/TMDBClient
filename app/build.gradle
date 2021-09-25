@@ -18,7 +18,7 @@ android {
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
 
-        buildConfigField "String", "API_KEY", "INSERT YOUR-API-KEY-CODE HERE"
+        buildConfigField "String", "API_KEY", "\"INSERT YOUR-API-KEY-CODE HERE\""
         buildConfigField "String", "BASE_URL", "\"https://api.themoviedb.org/3/\""
 
     }
